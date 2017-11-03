@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*.App-largeDogCookieImage {
+  position: fixed;
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  z-index: -2;
+  top: 0px;
+  left: 0px;
+}*/
+
+.App-content{
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-left: 0px;
+}
+
+.App-background{
+  position: fixed;
+  margin-left: 30%;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  z-index: -1;
+}
+
+.App-navMenu{
+  position: relative;
+  display: inline-block;
+  float: center;
+  padding: 20px;
+}
+
+
+.App-navMenu-button{
+  display: inline-block;
+  float: left;
+  border: 0px solid pink;
+  background-color: black;
+  color: white;
+  font-size: 12pt;
+  font-weight: normal;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: default;
+}
+.active{
+  color: white; /*#FF9999*/
+}
+.App-navMenu-button:hover{
+  background-color: grey;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.App-title {
+  font-family: 'Kumar One Outline', cursive;
+  color: orangered;
+  font-size: 48pt;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.App-introHeader {
+  text-align: left;
+  font-size: 30pt;
+  margin: auto;
+  font-weight: bold;
+}
+
+.App-introBody {
+  text-align: left;
+  font-size: 14pt;
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+.productWrapper{
+  display: inline-block;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+}
+
+.productImage{
+  width: 100%;
+}
+
+/*.App-aboutDog{
+  width: 60%;
+  height: auto;
+}
+
+.App-aboutDog-caption{
+  text-align: center;
+  font-size: 14pt;
+  margin: auto;
+}*/
+
+.App-aboutUs{
+  text-align: center;
+  font-size: 14pt;
+  margin: auto;
+  color: #808080;
+  font-style: italic;
+  margin-bottom: 1.5em;
+  width: 70%;
+}
+
+.detailPane{
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 100, 100, 0.8);
+  border-right: 3px solid black;
+  box-shadow: 2px 0px 2px #e0e0e0;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.detailPane-inner{
+  padding: 10px;
+  background-color: white;
+}
+
+.Xout{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24pt;
+  font-weight: bolder;
+  color: white;
+  cursor: default;
+}
